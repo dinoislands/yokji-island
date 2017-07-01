@@ -1,0 +1,175 @@
+.Main{
+	display: flex;
+	position: relative;
+	max-width: 100%;
+}
+
+.Main__Image-Container{
+	width: 100%;
+	height: 700px;
+}
+
+.Main__Image-Island{
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.Main__Title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.Main__Title-Text:first-child{
+	font-size: 60px;
+	font-weight: 600;
+	margin-top: 200px;
+}
+
+.Main__Title-Text:last-child{
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.Menu{
+	max-width: 100%;
+	height: 500px;
+	padding: 30px 20px 0px 20px;
+}
+
+.Menu__Header{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 100;
+	font-weight: 600;
+}
+
+.Menu__Header-Text{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.Menu__Pictures{
+	padding: 30px 100px;
+	max-width: 100%;
+	height: 400px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.Menu__Picture-Container{
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+
+.Menu__Picture{
+	width: 100%;
+	height: 100%;
+}
+
+.Menu__Overlay{
+	font-size: 30px;
+    color:white;
+    font-weight: 600;
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    justify-content:center;
+    align-items:center;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.Menu__Link:hover .Menu__Overlay{
+    opacity: 1;
+}
+
+.Us{
+	max-width: 100%;
+	height: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 100px;
+}
+
+.Us__About{
+	width: 100%;
+	display: flex;
+}
+
+.Left-column{
+	max-width: 50%;
+	height: 100%;
+}
+
+.Image{
+	width: 100%;
+	height: 100%;
+}
+
+.Right-column{
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 30px;
+	width: 100%;
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.About-us{
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.more{
+	margin-top: 20px;
+	font-style: italic;
+}
+
+.Us__Subscribe{
+	width: 30%;
+}
+
+.Subscribe-us{
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+.Us__Form{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input{
+	width: 100%;
+	padding:7px 10px;
+    font-size: 14px;
+    border:1px solid #c4c9ce;
+    box-sizing: border-box;
+    margin-bottom: 20px
+}
+
+.input-button{
+	width: 100%;
+	height: 30px;
+    background-color: #3897F0;
+    color:white;
+    border:0;
+    cursor: pointer;
+}
