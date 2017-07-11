@@ -3,17 +3,22 @@
   width: 100%;  
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .Header__Menu{
   max-width: 1200px;
-    display: flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Header__Menu-Menu{
 	display: flex;
   box-sizing: border-box;
+}
+
+.Header__Menu-Center{
+  width: 50px;
 }
 
 .Header__Menu-MenuButton{
@@ -44,3 +49,14 @@ Header__Menu-Logo{
 	width: 60px;
 	text-align: center;
 }
+
+.Header__Menu-Overlay{
+ /* opacity: 1; */
+/*  transition: opacity .5s ease-in-out; */
+}
+
+.Header__Menu-Overlay:hover {
+  font-weight: 700; /*700 Bold*/
+  opacity: 0.5;
+}
+
