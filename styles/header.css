@@ -49,3 +49,14 @@ Header__Menu-Logo{
 	width: 60px;
 	text-align: center;
 }
+
+.Header__Menu-Overlay{
+ /* opacity: 1; */
+/*  transition: opacity .5s ease-in-out; */
+}
+
+.Header__Menu-Overlay:hover {
+  font-weight: 700; /*700 Bold*/
+  opacity: 0.5;
+}
+
