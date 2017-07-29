@@ -1,15 +1,14 @@
 .Main{
-
 	position: relative;
-  max-width: 100%;
-  justify-content:space-between;
+	max-width: 100%;
+ 	justify-content:space-between;
   	display: flex;
-  justify-content: center;
+ 	justify-content: center;
 }
 
 .Main__Image-Container{
-  max-width: 1200px;
-  height: 700px;
+  max-width: 100%;
+  height: 650px;
 }
 
 .Main__Image-Island{
