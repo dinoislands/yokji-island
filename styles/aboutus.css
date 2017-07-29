@@ -1,0 +1,28 @@
+.Aboutme{
+
+	position: relative;
+  max-width: 100%;
+  justify-content:space-between;
+  	display: flex;
+  justify-content: center;
+}
+
+.Aboutme__Header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.Aboutme__Header-Title{
+	font-size: 50px;
+	font-weight: 600;
+	margin-top: 200px;
+}
+
+.Aboutme__Header-Text{
+	font-size: 20px;
+	font-weight: 400;
+}
